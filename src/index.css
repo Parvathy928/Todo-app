@@ -1,0 +1,79 @@
+*{
+ font-family: "Playfair Display", serif;
+ font-weight: 800px;
+ font-weight: bold;
+}body {
+  background-color: #ff9a8b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.main {
+  height: 300px;
+  width: 700px;
+  background-color: #577590;
+  border-radius: 15px;
+ box-sizing: border-box;
+ height: auto;
+ min-height: 300px;
+}
+
+#input-type{
+  height: 30px;
+  width: 600px;
+  position: relative;
+left: 9px;
+top: 10px;
+border-radius: 5px;
+outline: none;
+border: none;
+}
+.btn{
+  height: 35px;
+  width: 80px;
+  position: relative;
+  left: 10px;
+  top: 10px;
+  background-color: #ff6f61;
+  color: white;
+  border-radius: 5px;
+}
+
+.icon-button {
+  background-color: transparent; 
+  border: none;                
+  outline: none;               
+  padding: 0;                  
+  margin: 0 5px;               
+  cursor: pointer;              
+  color: #ff9a8b; 
+              
+}
+
+.icon-button i {
+  font-size: 20px;
+  
+               
+}
+.icon-button :hover{
+  opacity: 0.8;
+}
+
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  color: white;
+  margin-left: 4px;
+ 
+}
+.icon-container {
+position: relative;
+left: 8px;
+ 
+}
